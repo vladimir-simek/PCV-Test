@@ -1,0 +1,54 @@
+/*
+//COLORS//
+Background - #18191A
+Secondary Background - #242526
+Text - #B0B3B8
+Split - #383939
+ */
+
+body {
+    background-color: #18191A;
+}
+
+.allDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.showDropdownButton {
+    background-color: #242526;
+    cursor: pointer;
+    border: none;
+    color: #B0B3B8;
+}
+
+.showDropdownButton:hover {
+    background-color: #212121;
+}
+
+.dropdownItems {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #242526;
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: #B0B3B8;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.visible {
+    display: block;
+}
+
+.dropdownContent a:hover{
+    background-color: #242526;
+}
